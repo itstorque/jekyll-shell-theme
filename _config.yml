@@ -1,0 +1,7 @@
+title: "Shell Theme"
+description: "This is a description of my awesome hacker site."
+
+theme: jekyll-shell-theme
+
+sass:
+  style: compressed
