@@ -14,6 +14,7 @@
   --text-color: #DDD;
   --pop-color: white;
   --alt-color: #2ed573;
+  --light-alt-color: rgba(46, 213, 115);
 
 }
 
@@ -36,9 +37,11 @@ header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
 
 /* LISTS */
-:not(.menu) > ul { list-style: none;  padding-left: 0; }
+:not(.menu) > ul { list-style: none; padding-left: 1em; }
+ul :not(.menu) > ul { list-style: none; padding-left: 3em; margin-top: 0.5em; margin-bottom: 0.7em; }
 :not(.menu) > ul { list-style-type: none; }
 :not(.menu) > ul > li:before { content: "-";  margin-right: 9px; }
+ul :not(.menu) > ul > li:before { content: "*";  margin-right: 9px; }
 
 /* NAVIGATION */
 .menu { border-top: dashed 1px rgba(219, 219, 219, 0.9);  border-bottom: dashed 1px rgba(219, 219, 219, 0.9);  margin-bottom: 25px; }
@@ -49,5 +52,4 @@ footer { margin-bottom: 20px; }
 
 /* EXTRA */
 
-*::selection { background-color: white; color: black; }
-//
+*::selection { background-color: var(--light-alt-color); color: black; }
