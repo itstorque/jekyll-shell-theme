@@ -5,3 +5,6 @@ theme: jekyll-shell-theme
 
 sass:
   style: compressed
+
+header_pages:
+  - index.md

@@ -1,17 +1,53 @@
 ---
-  # Main Style-Sheet
+  # Style-Sheet
 ---
 
 /* FONTS */
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
 
+:root {
+
+  --main-color: white;
+  --bg-color: black;
+
+  --text-color: #DDD;
+  --pop-color: white;
+  --alt-color: #2ed573;
+
+}
+
 /* BASE */
-body { background-color: black; color: white; font-family: 'Roboto Mono', monospace; }
+body { background-color: var(--bg-color); color: var(--main-color); font-family: 'Roboto Mono', monospace; margin: 0 auto; line-height: 2em; width: 90%; max-width: 700px; }
+h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1em; }
+p, ul, ol { font-size: 1em;  color: var(--text-color); }
+a { text-decoration: underline;  color: var(--alt-color); }
+a:hover { color: var(--bg-color); background-color: var(--alt-color); }
+.primary-text { color: var(--main-color); }
+@media only screen and (max-device-width: 500px) { * { font-size: 12px !important; } }
+b, strong { color: var(--main-color); }
 
-footer { background-color: grey; color: black; width: 100%; position: fixed; bottom: 0px; left: 0px; padding: 0.5em; }
+/* LAYOUT */
+.container { margin-right: auto;  margin-left: auto; }
+p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; }
+footer { color: var(--text-color);  border-top: dashed 1px rgba(219, 219, 219, 0.9);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
+header { margin-top: 25px;  margin-bottom: 10px; }
+header p { text-align: left;  margin: 0; }
+footer { margin-bottom: 20px; }
 
+/* LISTS */
+:not(.menu) > ul { list-style: none;  padding-left: 0; }
+:not(.menu) > ul { list-style-type: none; }
+:not(.menu) > ul > li:before { content: "-";  margin-right: 9px; }
+
+/* NAVIGATION */
+.menu { border-top: dashed 1px rgba(219, 219, 219, 0.9);  border-bottom: dashed 1px rgba(219, 219, 219, 0.9);  margin-bottom: 25px; }
+.menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
+.menu ul li { display: inline;  margin-left: 10px; }
+.menu ul li a { text-decoration: none;  color: var(--text-color); }
+.menu ul li a:hover { text-decoration: none; color: var(--bg-color); background-color: var(--main-color); }
 
 /* EXTRA */
 
 *::selection { background-color: white; color: black; }
+//

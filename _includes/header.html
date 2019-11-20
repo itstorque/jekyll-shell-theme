@@ -1,5 +1,14 @@
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+
 <header>
-
-  <center>----  {{ page.title }}  ----</center>
-
+  <div class="menu">
+    <ul>
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <li><a href="{{ my_page.url | relative_url }}">{{ my_page.permalink_name | my_page.permalink | ERROR }}</a></li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
 </header>
