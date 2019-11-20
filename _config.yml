@@ -1,10 +1,17 @@
 title: "Shell Theme"
 description: "This is a description of my awesome hacker site."
+github: tareqdandachi
 
 theme: jekyll-shell-theme
+
+plugins:
+  - jemoji
 
 sass:
   style: compressed
 
 header_pages:
   - index.md
+
+# set the size of the text to 'large' or 'small', default is large
+font-size: small

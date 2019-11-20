@@ -28,6 +28,9 @@ a:hover { color: var(--bg-color); background-color: var(--alt-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: 12px !important; } }
 b, strong { color: var(--main-color); }
 
+/* SMALL FONT OVERRIDE */
+body.small { line-height: 2em; font-size: 0.9em; }
+
 /* LAYOUT */
 .container { margin-right: auto;  margin-left: auto; }
 p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; }
