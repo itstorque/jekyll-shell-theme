@@ -10,6 +10,8 @@ plugins:
 sass:
   style: compressed
 
+highlighter: rouge
+
 header_pages:
   - index.md
   - about.md
