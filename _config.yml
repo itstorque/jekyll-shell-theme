@@ -12,6 +12,7 @@ sass:
 
 header_pages:
   - index.md
+  - about.md
 
-# set the size of the text to 'large' or 'small', default is large
+# set the size of the text to 'large' or 'small', default is small
 font-size: small

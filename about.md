@@ -1,8 +1,8 @@
 ---
-layout: home
-permalink: /
-permalink_name: /home
-title: Jekyll-Shell-Theme
+layout: page
+permalink: /about
+permalink_name: /about
+title: About Theme
 ---
 
 # Header 1
