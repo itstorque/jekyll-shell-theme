@@ -1,6 +1,6 @@
 <footer>
 
-  {{ site.title }}/{{ page.title }}
+  {{ site.title }}/{{ page.permalink_name | replace: "/", "" | replace: " ", "-" }}
   <br><br>
   :octocat:  @{{ site.github_username }}
 

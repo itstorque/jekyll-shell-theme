@@ -1,5 +1,5 @@
-title: "Shell Theme"
-description: "This is a description of my awesome hacker site."
+title: "jekyll-shell-theme"
+description: "This is a preview of jekyll-shell-theme."
 github_username: tareqdandachi
 
 theme: jekyll-shell-theme
@@ -13,6 +13,8 @@ sass:
 header_pages:
   - index.md
   - about.md
+  - theme_preview.md
+  - read_me.md
 
 # set the size of the text to 'large' or 'small', default is small
 font-size: small

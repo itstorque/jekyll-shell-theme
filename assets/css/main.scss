@@ -19,7 +19,7 @@
 }
 
 /* BASE */
-body { background-color: var(--bg-color); color: var(--main-color); font-family: 'Roboto Mono', monospace; margin: 0 auto; width: 90%; max-width: 700px; line-height: 2em; font-size: 0.9em;}
+body { background-color: var(--bg-color); color: var(--main-color); font-family: 'Roboto Mono', monospace; margin: 0 auto; width: 90%; max-width: 700px; line-height: 2em; font-size: 0.9em; }
 h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1em; }
 p, ul, ol { font-size: 1em;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--alt-color); }
@@ -54,6 +54,10 @@ ul :not(.menu) > ul > li:before { content: "*";  margin-right: 9px; }
 .menu ul li a:hover { text-decoration: none; color: var(--bg-color); background-color: var(--main-color); }
 .menu ul li.page_title { text-align: left; margin-left: 10px; float: left; font-weight: bold; color: var(--main-color) }
 
-/* EXTRA */
+
+/* ERROR PAGES */
+
+div.error_box { margin: 100px; text-align: center; }
+div.error_box h1 { font-size: 2em; }
 
 *::selection { background-color: var(--light-alt-color); color: black; }
