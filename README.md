@@ -8,7 +8,7 @@
 - Shell Nostalgia
 - Code, code and more code
 
-
+See an example of this theme in action on the [theme's official site](https://tareqdandachi.github.io/jekyll-shell-theme).
 
 ## Installation
 
