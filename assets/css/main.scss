@@ -28,7 +28,7 @@ a:hover { color: var(--bg-color); background-color: var(--alt-color); }
 .primary-text { color: var(--main-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: 12px !important; } }
 b, strong { color: var(--main-color); }
-.highlight { color: var(--bg-color); background-color: var(--main-color); }
+.invert { color: var(--bg-color); background-color: var(--main-color); padding-left: 3px; padding-right: 3px; padding-top: 1px; padding-bottom: 1px; }
 
 /* SMALL FONT OVERRIDE */
 body.large { line-height: 2em; font-size: 1em; }
