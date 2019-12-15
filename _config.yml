@@ -14,9 +14,8 @@ highlighter: rouge
 
 header_pages:
   - index.md
-  - about.md
-  - theme_preview.md
   - read_me.md
+  - theme_preview.md
 
 # set the size of the text to 'large' or 'small', default is small
 font-size: small
