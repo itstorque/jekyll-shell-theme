@@ -33,13 +33,15 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jekyll-shell-theme
-    
+
 ### Remote theme method
 
-Make sure your `Gemfile` contains the `github-pages` gem and **not** the `jekyll-shell-theme` gem. 
+Make sure your `Gemfile` contains the `github-pages` gem and **not** the `jekyll-shell-theme` gem.
 
-Then add `remote_theme: "tareqdandachi/jekyll-shell-theme"` to your `_config.yml` file. 
+Then add `remote_theme: "tareqdandachi/jekyll-shell-theme"` to your `_config.yml` file.
 *Remove* any other `theme:` or `remote_theme:` entry.
+
+*For an example of what a config file could look like, look at [example-config.yml](https://github.com/tareqdandachi/jekyll-shell-theme/blob/master/example-config.yml)*
 
 ## Usage
 
@@ -56,9 +58,8 @@ Everyone is welcome to fork this repo and modify the code. To set up your enviro
 To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using the theme. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-shell-theme.gemspec` accordingly. 
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-shell-theme.gemspec` accordingly.
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-

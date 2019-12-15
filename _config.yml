@@ -4,8 +4,6 @@ github_username: tareqdandachi
 baseurl: "/jekyll-shell-theme"
 url: "tareqdandachi.github.io"
 
-theme: jekyll-shell-theme
-
 plugins:
   - jemoji
 

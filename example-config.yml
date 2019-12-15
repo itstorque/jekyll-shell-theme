@@ -1,0 +1,33 @@
+# This is an example of what an '_config.yml' file should look like
+# when using jekyll-shell-theme. You should use this as a guide or
+# just copy+paste it and modify some of the content to begin with.
+
+title: Page Title
+email: email@domain.xyz
+description: >- # this means to ignore newlines until "baseurl:"
+  A paragraph describing your webpage.
+baseurl: "/blog" # the subpath of your site
+url: "domain.xyz" # the base hostname & protocol for your site
+twitter_username: tareqdandachi
+github_username:  tareqdandachi
+
+# Required plugins for the theme to work properly
+plugins:
+  - jekyll-remote-theme
+  - jemoji
+
+# Including jekyll-shell-theme using the jekyll-remote-theme plugin
+remote_theme: tareqdandachi/jekyll-shell-theme
+
+sass:
+  style: compressed
+
+highlighter: rouge #selecting the highlighter, default is rouge
+
+header_pages:
+  - index.md
+  - about.md
+  - a-third-page.md
+
+# controls how big the shell and font looks
+font-size: small # options: [small] or [large]
