@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /read_me
+permalink: /read-me
 permalink_name: /read me
 title: README.md
 ---

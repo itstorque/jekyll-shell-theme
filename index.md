@@ -12,4 +12,4 @@ detail_image: assets/theme_logo.svg
 
 **Jekyll Shell Theme** is an Open Source light-weight customizable jekyll theme for your site! You can use it to spice up your personal profiles, project pages or just about anything!
 
-No prior web-dev knowledge is required to use the theme to make a website, just follow the instructions in [/read-me](/read_me) to set up your web page and start filling it with hackery content!
+No prior web-dev knowledge is required to use the theme to make a website, just follow the instructions in [/read-me](/read-me) to set up your web page and start filling it with hackery content!
