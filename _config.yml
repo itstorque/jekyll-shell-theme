@@ -1,6 +1,8 @@
 title: "jekyll-shell-theme"
 description: "This is a preview of jekyll-shell-theme."
 github_username: tareqdandachi
+baseurl: "/jekyll-shell-theme"
+url: "tareqdandachi.github.io"
 
 theme: jekyll-shell-theme
 
