@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /theme-preview
+permalink: /preview
 permalink_name: /preview
 title: This is the page title
 ---
