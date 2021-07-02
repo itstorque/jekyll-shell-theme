@@ -26,6 +26,7 @@ highlighter: rouge #selecting the highlighter, default is rouge
 
 header_pages:
   - index.md
+  - iletisim.md
   - about.md
   - a-third-page.md
 

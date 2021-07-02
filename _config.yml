@@ -1,9 +1,9 @@
-title: "jekyll-shell-theme"
-tagline: "A jekyll theme that looks like a shell/terminal"
-description: "This is a preview of jekyll-shell-theme."
-github_username: tareqdandachi
-baseurl: "/jekyll-shell-theme"
-url: "https://tareqdandachi.github.io"
+title: "SAÜSİBER"
+tagline: "Sakarya Üniversitesi Siber Güvenlik Topluluğu"
+description: "Sakarya Üniversitesi Siber Güvenlik Topluluğu"
+github_username: sausiber
+baseurl: ""
+url: "https://sausiber.github.io"
 
 plugins:
   - jemoji
@@ -17,6 +17,7 @@ highlighter: rouge
 
 header_pages:
   - index.md
+  - iletisim.md
   - read-me.md
   - preview.md
 
