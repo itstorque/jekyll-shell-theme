@@ -28,7 +28,6 @@ Güncel sosyal medya ve iletişim adreslerimize aşağıdaki linklerden ulaşabi
 <div style="font-size:20px;margin-bottom:10px;background-color:#f5f5f5;color:black;"><center>YÖNETİM EKİBİ</center></div>
 <center><p>Fatih Melih Ersoy / Başkan<p><center>
 <center><p>İbrahim Said Kavas / Başkan Yardımcısı<p><center>
-<center><p>Alihan Saraç / Yönetim Üyesi<p><center>
 <center><p>Muhammed Emin Güzel / Yönetim Üyesi<p><center>
 <center><p>Hande Özen / Yönetim Üyesi<p><center>
 <center><p>Kübra Yılmaz / Yönetim Üyesi<p><center>
