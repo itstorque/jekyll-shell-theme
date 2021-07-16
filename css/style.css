@@ -1,0 +1,23 @@
+h1 {
+    color:aqua
+}
+
+body {
+    padding-top: 50px;
+}
+
+.about {
+    background-color: lightgrey;
+}
+
+.members {
+
+}
+
+.contact {
+    background-color: lightgrey;
+}
+
+.cardhover>img:hover {
+    opacity: 0.8;
+}
