@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "./css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SAÜSİBER</title>
+  </head>
+
+  <body>
+
+    <!-- Menü -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">SAÜSİBER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#menu">Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#members">Yönetim Ekibi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">İletişim</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Etkinlikler
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./onceki_etkinliklerimiz.html">Önceki Etkinliklerimiz</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Etkinlik Kayıt</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Menü Son -->
+
+    <!-- Slider Başla -->
+
+    <div id="menu" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#menu" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#menu" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#menu" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#menu" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#menu" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Slider Bitiş -->
+
+    <!-- Hakkımızda Başlangıç -->
+    
+      <section id="about" class = "p-5 text-center about"> 
+          <div class = "container">
+              <h2 class = "mb-5 font-weight-bold"> Hakkımızda</h2>
+              <hr>
+              <h3> Sakarya Üniversitesi Siber Güvenlik Topluluğu - SAÜSİBER </h3>
+              <p>
+                29 Eylül 2014’te Sakarya Üniversitesi Bilgisayar ve Bilişim Bilimleri Fakültesi bünyesinde 
+                ‘Siber Güvenlik Farkındalığı’ yaratmak ve ilgisi olanları sektöre kazandırmak amacıyla kuruldu. 
+                SaüSiber kurulduğu günden bugüne kadar, kuruluş amacı ile ilgili öğrencilere ulaşmış ve bir çok eğitim 
+                vererek sektöre ve siber güvenlik alanına yeni insanlar kazandırmış ve kazandırmaya da devam etmektedir.
+              </p>
+          </div>
+      </section>
+
+    <!-- Hakkımızda Bitiş -->
+
+    <!-- Yönetim Ekibi Başlangıç-->
+      <section id="members" class = "p-5 text-center members">
+        
+        <div class="container">
+            <h2 class = "mb-5 font-weight-bold"> Yönetim Ekibi</h2>
+            <hr>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card cardhover">
+                    <img src="./images/banner.jpg" class="card-img-top" alt="Başkan">
+                    <div class="card-body">
+                      <h5 class="card-title">Fatih Melih Ersoy</h5>
+                      <p class="card-text">Başkan</p>
+                      <i class="fab fa-discord" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card cardhover">
+                    <img src="./images/banner.jpg" class="card-img-top" alt="Başkan Yardımcısı">
+                    <div class="card-body">
+                      <h5 class="card-title">İbrahim Said Kavas</h5>
+                      <p class="card-text">Başkan Yardımcısı</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card cardhover">
+                    <img src="./images/banner.jpg" class="card-img-top" alt="Yönetim Üyesi">
+                    <div class="card-body">
+                      <h5 class="card-title">Muhammed Emin Güzel</h5>
+                      <p class="card-text">Yönetim Üyesi</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card cardhover">
+                    <img src="./images/banner.jpg" class="card-img-top" alt="Yönetim Üyesi">
+                    <div class="card-body">
+                      <h5 class="card-title">Hande Özen</h5>
+                      <p class="card-text">Yönetim Üyesi</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card cardhover">
+                      <img src="./images/banner.jpg" class="card-img-top" alt="Yönetim Üyesi">
+                      <div class="card-body">
+                        <h5 class="card-title">Kübra Yılmaz</h5>
+                        <p class="card-text">Yönetim Üyesi</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card cardhover">
+                      <img src="./images/banner.jpg" class="card-img-top" alt="Yönetim Üyesi">
+                      <div class="card-body">
+                        <h5 class="card-title">Merve Sarı</h5>
+                        <p class="card-text">Yönetim Üyesi</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card cardhover">
+                      <img src="./images/banner.jpg" class="card-img-top" alt="Yönetim Üyesi">
+                      <div class="card-body">
+                        <h5 class="card-title">Sedanur Sarıkoç</h5>
+                        <p class="card-text">Yönetim Üyesi</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                      <div class="card cardhover">
+                        <img src="./images/banner.jpg" class="card-img-top" alt="Yönetim Üyesi">
+                        <div class="card-body">
+                          <h5 class="card-title">Yağmur Ernalbant</h5>
+                          <p class="card-text">Yönetim Üyesi</p>
+                        </div>
+                      </div>
+                    </div>
+
+              </div>
+            
+        </div>
+
+      </section>
+
+    <!-- Yönetim Ekibi Bitiş -->
+
+    <!-- İletişim Başlangıç-->
+
+      <section id="contact" class = "p-5 text-center contact">
+          <div class="container">
+            <h2 class = "mb-5 font-weight-bold"> İletişim ve Sosyal Medya</h2>
+            <hr>
+            <p>Eğitimlerimizden Haberdar Olmak İçin Bizi Takip Etmeyi Unutmayın!</p>
+            <a href="https://twitter.com/sausiber">Twitter</a>
+            <a href="https://www.instagram.com/sausiber/">Instagram</a>
+            <a href="https://kommunity.com/sausiber">Kommunity</a>
+            <a href="https://discord.gg/6BKHc9K6PY">Discord</a>
+
+          </div>
+      </section>
+
+    <!-- İletişim Bitiş -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+
+    <footer>
+        <div class = "bg-dark text-light text-center">
+            <p class = "align-middle p-5 mb-0">
+                <span>Sakarya Üniversitesi Resmi Siber Güvenlik Klübü | 2014</span><br>
+            </p>
+        </div>
+    </footer>
+</html>
