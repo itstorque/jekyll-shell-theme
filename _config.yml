@@ -1,9 +1,9 @@
-title: "jekyll-shell-theme"
-tagline: "A jekyll theme that looks like a shell/terminal"
-description: "This is a preview of jekyll-shell-theme."
-github_username: tareqdandachi
-baseurl: "/jekyll-shell-theme"
-url: "https://tareqdandachi.github.io"
+title: "Witt's Devlog"
+tagline: "Witt's Devlog"
+description: "Witt's Devlog"
+github_username: wittLevit
+baseurl: "/"
+url: "https://wittlevit.github.io"
 
 plugins:
   - jemoji
@@ -14,6 +14,8 @@ sass:
   style: compressed
 
 highlighter: rouge
+
+remote_theme: tareqdandachi/jekyll-shell-theme
 
 header_pages:
   - index.md
